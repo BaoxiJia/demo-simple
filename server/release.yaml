@@ -7,7 +7,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: busybox
-  namespace: demo-0106
+  namespace: demo-L4-0109
 spec:
   containers:
   - image: busybox
