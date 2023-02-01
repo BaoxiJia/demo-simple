@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: demo-0201
+  name: demo-0201-1
 ---
 apiVersion: v1
 kind: Pod
 metadata:
   name: busybox
-  namespace: demo-0201
+  namespace: demo-0201-1
 spec:
   containers:
   - image: busybox
